@@ -1,8 +1,6 @@
 # My Reads Project
 ##### by _Muhammad Al-Aasar_
-#
-#
-#
+
 
 > This app allows you to select and categorize books you have read, are currently reading, or want to read.
 #
