@@ -10,6 +10,7 @@ const Search = (props) => {
             const searchedBooks = await search(query, maxNumber);
             props.books.map(b => searchedBooks.map(s => {
                 if (s.id === b.id) s.shelf = b.shelf;
+                return s;
             }))
 
             if (!Array.isArray(searchedBooks) || !query.trim()) {
